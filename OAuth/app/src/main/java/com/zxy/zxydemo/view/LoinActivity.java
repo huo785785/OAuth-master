@@ -21,6 +21,9 @@ public class LoinActivity extends BaseActivity implements View.OnClickListener {
         return R.layout.activity_login;
     }
 
+    /**
+     * hhha
+     */
     @Override
     public void initEvent() {
         super.initEvent();
