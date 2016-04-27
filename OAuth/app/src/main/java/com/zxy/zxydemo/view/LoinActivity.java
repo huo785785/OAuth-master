@@ -35,7 +35,7 @@ public class LoinActivity extends BaseActivity implements View.OnClickListener {
         qqLogin = new QQLogin(this);
         weiboLogin=new WeiBoLogin(this);
     }
-
+//dsad
     @Override
     public void initView() {
         super.initView();
