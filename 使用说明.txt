@@ -1,0 +1,2 @@
+1.在config文件放入你申请各各平台的key。
+2.在androidManifest文件放入你申请各各平台的key
