@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="分享到"
+        android:textColor="@color/share_text_color"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/share_text_color" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/qq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+               android:drawableTop="@mipmap/qq"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="QQ"
+                android:textColor="@color/share_text_color" />
+
+            <TextView
+                android:id="@+id/friends"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/pengyouquan"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="朋友圈"
+                android:textColor="@color/share_text_color" />
+
+            <TextView
+                android:id="@+id/wechat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/weixin_icon"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="微信"
+                android:textColor="@color/share_text_color" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/weibo_sina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/xinlang"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="新浪微博"
+                android:textColor="@color/share_text_color" />
+
+            <TextView
+                android:id="@+id/QQzone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/qq"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="QQ空间"
+                android:textColor="@color/share_text_color" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/duanxin"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="短信"
+                android:textColor="@color/share_text_color"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/weibo_tt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/qq"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="腾讯微博"
+                android:textColor="@color/share_text_color"
+                android:visibility="gone" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/share_text_color" />
+
+    <TextView
+        android:id="@+id/tv_shareCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="取消"
+        android:textColor="@color/share_text_color"
+        android:textSize="16dp" />
+
+</LinearLayout>

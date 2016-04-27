@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">zxydemo</string>
+    <string name="app_share">一键分享</string>
+    <string name="str_qq">QQ登录</string>
+    <string name="str_weixin">微信 登录</string>
+    <string name="str_weibo">微博登录</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_toast_auth_AppID_failed">微信KEY还没有申请成功</string>
+    <string name="errcode_success">分享成功</string>
+    <string name="errcode_eooro">分享失败</string>
+    <string name="errcode_cancel">分享取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+</resources>
