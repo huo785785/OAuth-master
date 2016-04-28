@@ -22,7 +22,7 @@ public class LoinActivity extends BaseActivity implements View.OnClickListener {
     }
 
     /**
-     * hhha我是hth的分支
+     * hhha我是
      */
     @Override
     public void initEvent() {
